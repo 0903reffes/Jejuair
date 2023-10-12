@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jejuair</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="wrap">
+
+        <header>
+            <div id="in_header">
+                <div id="logo">
+                    <a href="#"><img src="img/jejuair_logo.png" alt="logo"/></a>
+                </div>
+                <div id="logo_mb">
+                    <a href="#"><img src="img/logo_mb.png" alt="logo"/></a>
+                </div>
+
+                <ul id="gnb">
+                    <li>항공권 예매</li>
+                    <li>마이페이지</li>
+                    <li>부가서비스 안내</li>
+                    <li>모바일 탑승권</li>
+                    <li>이벤트</li>
+                </ul>
+
+                <ul id="side_box">
+                    <li><img src="img/login_icon.png" alt="login"/></li>
+                    <li><img src="img/search_icon.png" alt="search"/></li>
+                </ul>
+
+                <div id="side_menu_760">
+                    <img src="img/side_menu_1024.png" alt="side menu"/>
+                </div>
+
+                <div id="side_menu_mb">
+                    <img src="img/side_menu_mb.png" alt="side menu"/>
+                </div>
+            </div>
+        </header>            
+            <!-- header end -->
+
+
+        <section id="section_1">
+
+            <div class="container" id="main">
+                <div id="con_wrap">
+                    <ul class="ticketing_type">
+                        <li>왕복</li>
+                        <li>편도</li>
+                        <li>다구간</li>
+                    </ul>
+                    <!-- 예매 타입 -->
+
+                    <div class="ticketing_wrap">
+
+                        <div class="ticketing_place">
+                            <div id="start"><h1>출발지</h1></div>
+                            <div class="ticketing_icon">
+                                <img src="img/place_icon.png" alt="place"/>
+                            </div>
+                            <div id="end"><h1>도착지</h1></div>
+                        </div>
+                        <!-- 출발지/도착지 -->
+    
+                        <div class="ticketing_date">
+                            <div class="ticketing_icon">
+                                <img src="img/date_icon.png" alt="date"/>
+                            </div>
+                            <p>2023.07.29 ~ 2023.08.05</p>
+                        </div>
+                        <!-- 여행날짜 -->
+    
+                        <div class="ticketing_people">
+                            <div class="ticketing_icon">
+                                <img src="img/people_icon.png" alt="people"/>
+                            </div>
+                            <p>성인 1명</p>
+                            <p>아동 1명</p>
+                        </div>
+                        <!-- 탑승객 정보 -->
+                    </div>
+                    
+
+                    <div class="payment_promotion_btn">
+
+                        <div class="payment_promotion">
+                            <div class="payment">
+                                <div class="payment_promotion_title">
+                                    <p>결제방법</p>
+                                    <div class="ticketing_icon">
+                                        <img src="img/explain_icon.png" alt="explain"/>
+                                    </div>
+                                </div>
+        
+                                <ul class="payment_type">
+                                    <li class="payment_basic">
+                                        <label>
+                                            <input type="radio" name="basic" checked="checked">일반
+                                        </label>
+                                        <!-- 인풋, 라벨 쓰기-->
+                                    </li>
+                                    <li class="payment_point">
+                                        <label>
+                                            <input type="radio" name="basic">포인트
+                                        </label>
+                                        <!-- 인풋, 라벨 쓰기-->
+                                    </li>
+                                    <li class="payment_gifticket">
+                                        <label>
+                                            <input type="radio" name="basic">기프티켓
+                                        </label>
+                                        <!-- 인풋, 라벨 쓰기-->
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- 결제방법 -->
+
+                            <div class="promotion">
+                                <div class="payment_promotion_title">
+                                    <p>프로모션 코드 입력</p>
+                                    <div class="ticketing_icon">
+                                        <img src="img/explain_icon.png" alt="explain"/>
+                                    </div>
+                                </div>
+    
+                                <div class="promotion_code"></div>
+                            </div>
+                            <!-- 프로모션 코드 입력 -->
+
+                        </div>
+                            
+                        <div class="ticketing_search_btn">
+                            <p>항공권 검색</p>
+                        </div>
+                        <!-- 항공권 검색 버튼-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section_1 end -->
+
+
+        <section id="section_2">
+
+            <div class="container">
+                <div class="section_title">
+                    <h1 class="slide_title">추천 항공권</h1>
+                </div>
+            </div>
+            
+
+            <div class="slide_container">
+
+                <div class="section2_con_wrap">
+                    <div id="slide_btn">
+                        <img src="img/slide_icon_left.png" alt="slide_left"/>
+                    </div>
+                                 
+                    <div class="section2_con_box">
+                        <div class="section2_con">
+                            <div class="con_img">
+                               <img src="img/icn_manila_img.jpg" alt="manila"/>
+                           </div>
+                           <div class="section2_text_wrap">
+                               <a href="#">
+                                   <h1>서울(인천) - 마닐라</h1>
+                                   <h5>편도총액</h5>
+                                   <h3>93,800원~</h3>
+                                   <p>2023.08.15 ~ 2023.09.15</p>
+                               </a>
+                           </div>
+                       </div>
+                       <!-- 서울(인천)-마닐라 -->
+   
+                       <div class="section2_con">
+                           <div class="con_img">
+                               <img src="img/daegu_jeju_img.jpg" alt="jeju"/>
+                           </div>
+                           <div class="section2_text_wrap">
+                               <a href="#">
+                                   <h1>대구 - 제주</h1>
+                                   <h5>편도총액</h5>
+                                   <h3>26,600원~</h3>
+                                   <p>2023.08.15 ~ 2023.08.31</p>
+                               </a>
+                           </div>
+                       </div>
+                       <!-- 대구-제주 -->
+   
+                       
+                       <div class="section2_con">
+                           <div class="con_img">
+                               <img src="img/gwangju_jeju_img.jpg" alt="jeju"/>
+                           </div>
+                           <div class="section2_text_wrap">
+                               <a href="#">
+                                   <h1>광주 - 제주</h1>
+                                   <h5>편도총액</h5>
+                                   <h3>23,600원~</h3>
+                                   <p>2023.08.15 ~ 2023.08.31</p>
+                               </a>
+                           </div>
+                       </div>
+                        <!-- 광주-제주 -->
+   
+   
+                        <div class="section2_con">
+                           <div class="con_img">
+                               <img src="img/icn_bkk_img.jpg" alt="bkk"/>
+                           </div>
+                           <div class="section2_text_wrap">
+                               <a href="#">
+                                   <h1>서울(인천) - 치앙마이</h1>
+                                   <h5>편도총액</h5>
+                                   <h3>198,300원~</h3>
+                                   <p>2023.08.15 ~ 2023.09.15</p>
+                               </a>
+                           </div>
+                        </div>
+                       <!-- 서울(인천)-치앙마이 -->
+                    </div>
+                                        
+                    <div id="slide_btn">
+                        <img src="img/slide_icon_right.png" alt="slide_right"/>
+                    </div>
+                </div>
+
+            </div>    
+
+            
+
+            <ul class="slide_mb_btn">
+                <li><img src="img/slide_mb_left.png" alt="slide_left"/></li>
+                <li><img src="img/slide_mb_right.png" alt="slide_right"/></li>
+            </ul>
+
+        </section>
+        <!-- section_2 end -->
+
+
+        <section id="section_3">
+
+            <div class="container">
+
+                <div class="service_1">
+                    <div class="section_title">
+                        <h1>부가 서비스</h1>
+                    </div>
+                    <ul class="service_wrap">
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_1-1.png" alt="사전 수하물"/>
+                            </div>
+                            <p>사전 수하물</p>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_1-2.png" alt="좌석 구매"/>
+                            </div>
+                            <p>좌석 구매</p>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_1-3.png" alt="사전 기내식"/>
+                            </div>
+                            <p>사전 기내식</p>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_1-4.png" alt="여행자 보험"/>
+                            </div>
+                            <p>여행자 보험</p>
+                        </a></li>
+                    </ul>
+                </div>
+                <!-- 부가 서비스 -->
+
+                <div class="service_2">
+                    <div class="section_title">
+                        <h1>제휴 서비스</h1>
+                    </div>
+                    <ul class="service_wrap">
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_2-1.png" alt="호텔숙박"/>
+                            </div>
+                            <p>호텔/숙박</p>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_2-2.png" alt="렌터카"/>
+                            </div>
+                            <p>렌터카</p>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_2-3.png" alt="와이파이"/>
+                            </div>
+                            <p>와이파이</p>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="service_icon">
+                                <img src="img/section3_2-4.png" alt="라운지"/>
+                            </div>
+                            <p>라운지</p>
+                        </a></li>
+                    </ul>
+                </div>
+                <!-- 제휴 서비스 -->                
+            </div>
+        </section>
+        <!-- section_3 end -->
+
+
+
+        <section id="section_4">
+
+            <div class="container">
+                <div class="section_title">
+                    <h1 class="slide_title">이벤트</h1>
+                </div>
+            </div>
+            
+
+            <div class="slide_container">
+
+                <div class="s4_con_wrap">
+                    <div id="slide_btn">
+                        <img src="img/slide_icon_left.png" alt="slide_left"/>
+                    </div>
+
+                    <ul class="event_wrap">
+                        <li><a href="#">
+                            <div class="event_img">
+                                <img src="img/event_1.png" alt="태국 늦캉스 특가"/>
+                            </div>
+                            <div class="event_text_wrap">
+                                <h1>태국 늦캉스 특가!</h1>
+                                <h2>D-9</h2>  
+                            </div>
+                            <p>2023.07.26 ~ 2023.08.08</p>
+                        </a></li>
+                        <!-- 태국 늦캉스 이벤트 -->
+    
+                        <li><a href="#">
+                            <div class="event_img">
+                                <img src="img/event_2.png" alt="후쿠오카 이벤트"/>
+                            </div>
+                            <div class="event_text_wrap">
+                                <h1>후쿠오카에서 나가사키로!</h1>
+                                <h2>D-6</h2>
+                            </div>
+                            <p>2023.07.10 ~ 2023.08.06</p>
+                        </a></li>
+                        <!-- 후쿠오카 나가사키 이벤트 -->
+    
+                        <li><a href="#">
+                            <div class="event_img">
+                                <img src="img/event_3.png" alt="베트남 이벤트"/>
+                            </div>
+                            <div class="event_text_wrap">
+                                <h1>베트남의 몰디브, 푸꾸옥 재운항!</h1>
+                                <h2>D-1</h2>
+                            </div>
+                            <p>2023.07.19 ~ 2023.07.31</p>
+                        </a></li>
+                        <!-- 베트남 이벤트 -->
+                    </ul>
+
+                    <div id="slide_btn">
+                        <img src="img/slide_icon_right.png" alt="slide_right"/>
+                    </div>
+                </div>
+
+
+                <ul class="slide_mb_btn">
+                    <li><img src="img/slide_mb_left.png" alt="slide_left"/></li>
+                    <li><img src="img/slide_mb_right.png" alt="slide_right"/></li>
+                </ul>
+                <!-- 슬라이드 버튼-->
+            </div>
+        </section>
+        <!-- section_4 end -->
+
+
+
+        <section id="section_5">
+
+            <div class="container">
+
+                <div class="section_title">
+                    <h1>공지사항</h1>
+                </div>
+
+                <ul class="notice_wrap">
+                    <li><a href="#">
+                        코로나 바이러스 각 국가 입출국 제한 안내
+                        <p>2023.07.25</p>
+                    </a></li>
+                    <li><a href="#">
+                        시스템 점검에 따른 제주항공 온라인 이용 일시 중지 안내(07/27)
+                        <p>2023.07.25</p>
+                    </a></li>
+                    <li><a href="#">
+                        국제선 유류할증료(2023년 8월)
+                        <p>2023.07.20</p>
+                    </a></li>
+                    <li><a href="#">
+                        BTS 데뷔 10주년 기념 항공기 운항 안내
+                        <p>2023.07.18</p>
+                    </a></li>
+                </ul>
+
+            </div>
+        </section>
+        <!-- section_5 end -->
+
+
+        <section id="section_6">
+
+            <div class="container">
+
+                <div class="section_title">
+                    <h1>@ jejuair_official</h1>
+                </div>
+
+                <ul class="sns_img_wrap">
+                    <li><img src="img/sns_1.png" alt="sns_img"/></li>
+                    <li><img src="img/sns_2.png" alt="sns_img"/></li>
+                    <li><img src="img/sns_3.png" alt="sns_img"/></li>
+                    <li><img src="img/sns_img_mb.jpg" alt="sns_mb"/></li>
+                </ul>
+            </div>
+        </section>
+        <!-- section_6 end -->
+
+
+        <footer>
+
+            <div class="container">
+
+                <ul class="footer_cs">
+                    <li>
+                        <h3>고객센터</h3>
+                        <div class="call_time">
+                            <h1>1599-1500</h1>
+                            <p>(09:00~19:00)</p>
+                        </div>                        
+                    </li>
+                    <li>
+                        <h2>Family Site</h2>
+                        <div class="family_site_icon">
+                            <img src="img/family_site_icon.png" alt="family_site"/>
+                        </div>
+                    </li>
+                </ul>              
+            </div>
+            <!-- 고객센터 -->  
+
+
+            <div class="footer_container">
+                <div class="footer_cor_guide">
+                    <div class="footer2_left">
+                        <ul>
+                            <li id="footer_title">회사안내</li>
+                            <li>회사소개</li>
+                            <li>ESG 경영</li>
+                            <li>투자정보</li>
+                            <li>채용안내</li>
+                        </ul>
+
+                        <ul>
+                            <li id="footer_title">약관 및 규정</li>
+                            <li>여객운송약관</li>
+                            <li>홈페이지 이용약관</li>
+                            <li>개인정보처리방침</li>
+                            <li>사이트맵</li>
+                        </ul>
+
+                        <ul>
+                            <li id="footer_title">기타안내</li>
+                            <li>항공교통이용자 서비스 계획</li>
+                            <li>항공교통이용자 피해구제 계획</li>
+                            <li>항공위험물 안내</li>
+                            <li>항공안전투자공시</li>
+                        </ul>
+                    </div>
+
+                    <ul class="footer_mb">
+                        <li>
+                            <p>회사안내</p>
+                            <img src="img/footer_mb_icon.png" alt=""/>
+                        </li>
+                        <li>
+                            <p>약관 및 규정</p>
+                            <img src="img/footer_mb_icon.png" alt=""/>
+                        </li>
+                        <li>
+                            <p>기타안내</p>
+                            <img src="img/footer_mb_icon.png" alt=""/>
+                        </li>
+                    </ul>
+
+                    <div class="footer2_right">
+
+                        <div class="marketing_box">
+                            <h1 id="footer_title">마케팅 제휴</h1>
+                            <h2>partnership@jejuair.net</h2>
+                            <p>브랜드 협업, 미디어 노출, 제휴 프로모션 등 제안을 기다립니다.
+                                제안별로 담당자 검토 후 제휴가 진행됩니다.
+                            </p>
+                            <h3>이메일 무단 수집 거부</h3>
+                        </div>
+
+                        <div class="footer_sns">
+                            <h1 id="footer_title">SNS</h1>
+                            <ul class="footer_sns_img">
+                                <li><img src="img/youtube_icon.png" alt="youtube"/></li>
+                                <li><img src="img/instagram_icon.png" alt="instagram"/></li>
+                                <li><img src="img/tiktok_icon.png" alt="tiktok"/></li>
+                                <li><img src="img/facebook_icon.png" alt="facebook"/></li>
+                            </ul>
+                        </div>
+                    </div>                     
+                    
+                    
+                </div> 
+            </div>
+            <!-- 회사안내 -->
+
+
+            <div class="container">
+                <div class="footer_cor_information">
+
+                    <div class="cor_text">
+                        <ul class="cor_information">
+                            <li>(주)제주항공</li>
+                            <li>사업자등록번호 : 616-81-50527</li>
+                            <li>대표이사 : 김이배</li>
+                            <li>제주특별자치도 제주시 신대로 64(연동, 건설공제회관 3층)</li>
+                        </ul>
+                        <p>Copyright ⓒ JEJUAIR All Rights Reserved.</p>
+                    </div>
+
+                    <div class="footer_1024">
+
+                        <ul class="phone_type">
+                            <li>
+                                <img src="img/footer_ios_icon.png" alt="ios"/>
+                                <p>IOS</p>
+                            </li>
+                            <li>
+                                <img src="img/footer_android_icon.png" alt="android"/>
+                                <p>Android</p>
+                            </li>
+                        </ul>
+    
+                        <ul class="sns_img_wrap_1024">
+                            <li><img src="img/youtube_icon.png" alt="youtube"/></li>
+                            <li><img src="img/instagram_icon.png" alt="instagram"/></li>
+                            <li><img src="img/tiktok_icon.png" alt="tiktok"/></li>
+                            <li><img src="img/facebook_icon.png" alt="facebook"/></li>
+                        </ul>
+
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+
+
+            <!-- 회사 정보 -->
+
+
+
+        </footer>
+        <!-- footer end -->
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

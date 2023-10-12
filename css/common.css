@@ -1,0 +1,180 @@
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+section, footer {
+    max-width: 1920px;
+}
+
+section {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1324px;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+}
+
+.section_title {
+    font-size: 20px;
+    color: #ff5000;
+    font-weight: 500;
+}
+
+#slide_btn {
+    width: 60px;
+    /* height: 70px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide_mb_btn {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+/* #slide_btn:last-child {
+    margin-left: 30px;
+}
+
+#slide_btn:first-child {
+    margin-right: 30px;
+} */
+
+.event_wrap>#slide_btn {
+    margin-top: 75px;
+    height: 70px;
+    width: 70px;
+}
+
+
+#section_4 {
+    position: relative;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+
+
+/* 1350 */
+@media all and (max-width: 1350px) {
+
+    section {
+        padding: 7.55vw 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .section_title {
+        font-size: 1.51vw;
+    }
+
+    .s4_con_wrap>#slide_btn {
+        /* width: 55px; */
+    }
+
+}
+/* 1350 end */
+
+
+
+
+
+
+
+
+/* 1024 */
+@media all and (max-width: 1024px) {
+
+    section {
+        padding: /* 60px */5.85vw 0;
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: /* 904px */88.2vw;        
+        margin: 0 auto;
+    }
+
+    .section_title {
+        font-size: /* 20px */1.95vw;
+    }
+
+    #slide_btn {
+        width: /* 55px */ 5.37vw;
+    }
+
+    .event_wrap>#slide_btn {
+        width: /* 55px */ 5.37vw;
+        height: 5.37vw;
+        margin-top: 7.32vw;
+    }
+
+    
+
+     
+    
+   
+}
+/* 1024 end */
+
+
+
+
+
+/* 375 */
+@media all and (max-width: 375px) {
+
+    section {
+        padding: 50px 0;
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 335px;        
+        margin: 0 auto;
+    }
+
+    .section_title {
+        font-size: 16px;
+    }
+
+    #slide_btn {
+        display: none;
+    }
+
+    .slide_mb_btn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .slide_mb_btn>li {
+        width: 8px;
+        height: 17px;
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+    }
+
+    .slide_mb_btn>li:first-child {
+        left: 20px;
+    }
+
+    .slide_mb_btn>li:last-child {
+        right: 20px;
+    }    
+    
+   
+}
+/* 375 end */
